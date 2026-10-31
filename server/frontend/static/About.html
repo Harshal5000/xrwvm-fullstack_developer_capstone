@@ -1,7 +1,12 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <!-- Link the style sheet here -->
+  <meta charset="utf-8">
+  <title>About Us - Dealerships</title>
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/style.css">
 </head>
+<body>
 <div>
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
     <div class="container-fluid">
@@ -25,44 +30,43 @@
     </div>
   </nav>
   
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+  <div class="card" style="width: 80%;margin: auto; margin-top:5%; padding: 20px;">
+    <div class="banner text-center my-4" name="about-header">
+      <h1>About Us</h1>
+      <p class="lead" style="max-width: 800px; margin: auto;">Welcome to Best Cars Dealership, home to the finest vehicles in the country. We provide nationwide dealership reviews, transparent pricing, and trusted customer feedback to help you buy your next vehicle with confidence.</p>
+    </div>
+    <div style="display: flex; flex-direction: row; justify-content: space-around; margin: auto; width: 100%; gap: 20px;">
+      <div class="card shadow-sm" style="width: 30%;">
+        <img class="card-img-top" src="/static/person.png" alt="Sarah Johnson" style="height: 250px; object-fit: contain; padding: 15px;">
+        <div class="card-body text-center">
+          <h4 class="title font-weight-bold">Sarah Johnson</h4>
+          <p class="text-muted font-italic">Chief Executive Officer</p>
+          <p class="card-text">Sarah has over 15 years of automotive leadership experience, driving digital transformation across national dealership networks.</p>
+          <p class="text-primary font-weight-bold">sarah.johnson@dealership.com</p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
+      <div class="card shadow-sm" style="width: 30%;">
+        <img class="card-img-top" src="/static/person.png" alt="Michael Chen" style="height: 250px; object-fit: contain; padding: 15px;">
+        <div class="card-body text-center">
+          <h4 class="title font-weight-bold">Michael Chen</h4>
+          <p class="text-muted font-italic">Head of Customer Operations</p>
+          <p class="card-text">Michael leads our customer satisfaction teams, ensuring seamless buyer experiences and verifying verified dealer reviews nationwide.</p>
+          <p class="text-primary font-weight-bold">michael.chen@dealership.com</p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
+      <div class="card shadow-sm" style="width: 30%;">
+        <img class="card-img-top" src="/static/person.png" alt="Emily Davis" style="height: 250px; object-fit: contain; padding: 15px;">
+        <div class="card-body text-center">
+          <h4 class="title font-weight-bold">Emily Davis</h4>
+          <p class="text-muted font-italic">VP of Automotive Engineering</p>
+          <p class="card-text">Emily oversees technical vehicle inspections and certified pre-owned evaluation standards across all affiliated locations.</p>
+          <p class="text-primary font-weight-bold">emily.davis@dealership.com</p>
         </div>
       </div>
     </div>
-    </div>
-    </div>
-    
+  </div>
 </div>
-
+</body>
 </html>
